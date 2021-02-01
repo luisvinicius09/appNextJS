@@ -4,6 +4,7 @@ import Pet from '../models/Pet'
 
 const Index = ({ pets }) => (
   <>
+    <div>Watch out for these pets!</div>
     {/* Create a card for each pet */}
     {pets.map((pet) => (
       <div key={pet._id}>
